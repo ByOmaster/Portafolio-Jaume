@@ -1,0 +1,23 @@
+.coment{
+text-align: center;
+font: var(--headLine6);
+margin-block-start: 56px;
+margin-block-end: 40px;
+}
+
+.coment span {
+    display: block;
+    font: var(--headLine5);
+}
+
+@media screen and (min-width: 768px ){
+    .coment {
+        font: var(--headLine6);
+        margin-block-end: 250px;
+        margin-block-start: 250px;
+    }
+    .coment span {
+        display: block;
+        font: var(--headLine5);
+    }
+}
